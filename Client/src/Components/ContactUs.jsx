@@ -1,4 +1,5 @@
 import { useState } from "react";
+import dog from '../Images/dog.jpg';
 
 function ContactUs() {
   const [formData, setFormData] = useState({
@@ -73,8 +74,8 @@ function ContactUs() {
           {/* Image Card */}
           <div className="relative mt-6">
             <img
-              src=""
-              alt="Dog"
+              src={dog}
+              alt="Happy dog at Paw'nHoof shelter"
               className="rounded-xl w-full h-56 object-cover"
             />
             <div className="absolute bottom-3 left-3 bg-black/70 text-white p-3 rounded-lg text-sm">

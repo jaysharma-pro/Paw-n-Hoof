@@ -49,16 +49,16 @@ function Donation() {
             Become a monthly supporter and provide consistent care for animals year-round.
           </p>
           <div className="space-y-3">
-            <button className="w-full bg-blue-100 hover:bg-blue-200 text-blue-700 py-3 rounded-lg font-medium transition">
+            <button className="w-full bg-orange-100 hover:bg-orange-200 text-orange-700 py-3 rounded-lg font-medium transition">
               $10/month
             </button>
-            <button className="w-full bg-blue-100 hover:bg-blue-200 text-blue-700 py-3 rounded-lg font-medium transition">
+            <button className="w-full bg-orange-100 hover:bg-orange-200 text-orange-700 py-3 rounded-lg font-medium transition">
               $25/month
             </button>
-            <button className="w-full bg-blue-100 hover:bg-blue-200 text-blue-700 py-3 rounded-lg font-medium transition">
+            <button className="w-full bg-orange-100 hover:bg-orange-200 text-orange-700 py-3 rounded-lg font-medium transition">
               $50/month
             </button>
-            <button className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-medium transition">
+            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg font-medium transition">
               Become a Monthly Donor
             </button>
           </div>
@@ -85,7 +85,7 @@ function Donation() {
               <span className="text-green-500">✓</span> Medical Supplies
             </li>
           </ul>
-          <button className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg font-medium transition">
+          <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg font-medium transition">
             View Supply Wishlist
           </button>
         </div>
@@ -100,21 +100,20 @@ function Donation() {
             <p className="text-gray-600">Animals Rescued</p>
           </div>
           <div>
-            <div className="text-3xl font-bold text-blue-600 mb-2">300+</div>
+            <div className="text-3xl font-bold text-orange-600 mb-2">300+</div>
             <p className="text-gray-600">Forever Homes</p>
           </div>
           <div>
-            <div className="text-3xl font-bold text-green-600 mb-2">1000+</div>
+            <div className="text-3xl font-bold text-orange-600 mb-2">1000+</div>
             <p className="text-gray-600">Medical Treatments</p>
           </div>
           <div>
-            <div className="text-3xl font-bold text-purple-600 mb-2">50+</div>
+            <div className="text-3xl font-bold text-orange-600 mb-2">50+</div>
             <p className="text-gray-600">Volunteers</p>
           </div>
         </div>
       </div>
 
-      {/* Contact Info */}
       <div className="max-w-6xl mx-auto text-center">
         <h3 className="text-xl font-semibold text-[#4a2c1f] mb-4">Other Ways to Give</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
