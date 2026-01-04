@@ -6,6 +6,7 @@ import DonationPage from './Pages/DonationPage'
 import ContactPage from './Pages/ContactPage'
 import LoginPage from './Pages/LoginPage'
 import StoryPage from './Pages/StoryPage'
+import NewsletterPage from './Pages/NewsletterPage'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
@@ -19,9 +20,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/adopt" element={<AdoptPage />} />
             <Route path="/donation" element={<DonationPage />} />
+            <Route path="/stories" element={<StoryPage />} />
+            <Route path="/newsletter" element={<NewsletterPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/login" element={<LoginPage />} />
-            <Route path="/stories" element={<StoryPage />} />
           </Routes>
         </main>
         <Footer />
